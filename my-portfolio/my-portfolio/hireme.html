@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hire Me – Software Engineer</title>
+  <link rel="stylesheet" href="hire.css" />
+</head>
+<body>
+
+  <div class="container">
+    <form id="hire-form">
+      <h1>Hire Me</h1>
+      <p>Let’s build something great together.</p>
+
+      <label>
+        Your Name
+        <input type="text" name="name" value="dan" required />
+      </label>
+
+      <label>
+        Company
+        <input type="text" name="company" value="thequa"/>
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" value="katalidaiyan@gmail.com" required />
+      </label>
+
+      <label>
+        Project / Role Description
+        <textarea name="project" rows="5"  required>ytdktfhtfthfth</textarea>
+      </label>
+
+      <button type="submit">Send Hiring Request</button>
+
+      <p id="status"></p>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <script src="hire.js"></script>
+</body>
+</html>
